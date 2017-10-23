@@ -1,24 +1,18 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Building my Mom's recipes site!!!  
 
-Things you may want to cover:
+Minitest
 
-* Ruby version
+Layout of the application
 
-* System dependencies
+Integration Testing 
 
-* Configuration
+Model Tests - Unit testing
 
-* Database creation
+TDD - design the app functionality based on a test first approach
+Write the test for the functionality 
+Build minimum code necessary to make each test pass
 
-* Database initialization
+Re-factor the code - *code doesnt smell* - clean code, confidence
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
