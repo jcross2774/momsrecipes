@@ -1,16 +1,16 @@
 # README
 
-- Building my Mom's recipes site!!!  
-- Minitest
-- Layout of the application
-- Integration Testing 
-- Model Tests - Unit testing
-- TDD - design the app functionality based on a test first approach
-- Write the test for the functionality 
-- Build minimum code necessary to make each test pass
-- Re-factor the code - *code doesnt smell* - clean code, confidence
-- Footer and style
-- Look at some sample layouts for homepage, and come up with a homepage design
+# Building my Mom's recipes site!!!  
+- x Minitest
+- x Layout of the application
+- x Integration Testing 
+- x Model Tests - Unit testing
+- x TDD - design the app functionality based on a test first approach
+- x Write the test for the functionality 
+- x Build minimum code necessary to make each test pass
+- x Re-factor the code - *code doesnt smell* - clean code, confidence
+- x Footer and style
+- x Look at some sample layouts for homepage, and come up with a homepage design
 
 # Database and associations
 
