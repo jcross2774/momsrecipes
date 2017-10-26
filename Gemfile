@@ -17,6 +17,7 @@ gem 'jbuilder', '~> 2.5'
 
 group :development, :test do
   gem 'sqlite3'
+  gem 'rails-controller-testing'
   gem 'byebug', platform: :mri
 end
 
