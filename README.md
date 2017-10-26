@@ -14,7 +14,19 @@
 
 # Database and associations
 
-- Relational Dababases
-- SQL - Structured Query Language
-- ActiveRecord - abstraction - Ruby - traslated to SQL
-- Uderstand - Database layer, Associations 
+# Recipe
+ - x recipe should be valid
+ - x name should be present
+ - x  description should be present
+ - chef_id should be present **
+ - x maximum length for name and description, maybe a minimum for description
+
+# Chef
+ - x chefname should be present
+ - x email should be present
+ - x size restrictions on email and chefname
+ - x email address should bevalid format
+ - x email should be unique, case insensitive
+
+
+
