@@ -1,10 +1,14 @@
 class ChefsController < ApplicationController
- 
- def new
-  @chef = Chef.new
- end
 
- def create
+  def index
+    @chefs = Chef.all
+  end
+ 
+  def new
+    @chef = Chef.new
+  end
+
+  def create
     @chef = Chef.new(chef_params)
     if @chef.save
       flash[:success] = "Welcome #{@chef.chefname} to Mom's Recipes App!"
