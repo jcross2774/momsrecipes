@@ -49,6 +49,8 @@ footer {
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
   color: #777;
+  padding-left: 10px;
+  padding-right: 10px
 }
 
 footer a {
@@ -107,9 +109,17 @@ footer ul li {
   font-size: 1.25em
 }
 
+.navbar-default .navbar-nav > li > a {
+    color: black;
+}
+ 
+.navbar-default .navbar-nav > li > a:hover {
+    color: #f1c40f;
+}
 
-
-
+.input_checkbox input {
+  width: auto !important;
+}
 
 
 
