@@ -9,7 +9,7 @@
       <h4><%= link_to recipe.name, recipe_path(recipe) %></h4>
       <p><%= truncate(recipe.description, length: 150) %></p>
       <% if recipe.ingredients.any? %>
-        <p>Ingredients: <%= render recipe.ingredients %></p>
+        <p>Recipe Type: <%= render recipe.ingredients %></p>
       <% end %>
       <p>
         <span class="quiet"><samll><%= time_ago_in_words(recipe.created_at) %> ago by <%= recipe.chef.chefname.capitalize %></samll></span>

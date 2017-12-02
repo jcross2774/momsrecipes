@@ -1,5 +1,5 @@
 class IngredientsController < ApplicationController
-  before_action :set_ingredient, only: [:edit, :update, :show]
+  before_action :set_ingredient, only: [:edit, :update, :show, :destroy]
   before_action :require_admin, except: [:show, :index]
 
   def new
@@ -27,6 +27,12 @@ class IngredientsController < ApplicationController
     else
       render 'edit'
     end
+  end
+
+  def destroy
+    Ingredient.find(params[:id]).destroy
+    flash[:success] = "Ingredient deleted successfully"
+    redirect_to ingredients_path
   end
 
   def show
