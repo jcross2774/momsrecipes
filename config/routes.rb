@@ -15,4 +15,6 @@ Rails.application.routes.draw do
 
   resources :ingredients
 
+  mount ActionCable.server => '/cable'
+
 end
